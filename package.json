@@ -1,0 +1,32 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "test": "jest src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yiaoma/data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yiaoma/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/Yiaoma/data-structures-and-algorithms#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.4",
+    "babel-jest": "^28.1.2",
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
+  }
+}
